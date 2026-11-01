@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "roblox-shipkit",
+  "owner": {
+    "name": "Albisourous",
+    "url": "https://github.com/Albisourous"
+  },
+  "description": "Install roblox-shipkit as a Claude plugin.",
+  "plugins": [
+    {
+      "name": "roblox-shipkit",
+      "source": "./",
+      "description": "Ship and grow Roblox games with fewer agent tokens.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "keywords": [
+        "roblox",
+        "game-design",
+        "monetization",
+        "publishing",
+        "agent-workflow"
+      ]
+    }
+  ]
+}
