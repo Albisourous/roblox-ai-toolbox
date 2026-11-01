@@ -2,7 +2,7 @@
 
 Record one generic, evidence-backed lesson per line. Use an allowed area and mark the status as observed or verified with a Creator Docs URL.
 
-Allowed areas: `game-design`, `monetization`, `economy`, `retention-growth`, `metrics`, `publishing`, `studio-tooling`, `agent-workflow`, `getting-started`.
+Allowed areas: `ads`, `game-design`, `monetization`, `economy`, `retention-growth`, `metrics`, `publishing`, `studio-tooling`, `agent-workflow`, `getting-started`.
 
 Format:
 

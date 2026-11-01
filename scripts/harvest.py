@@ -11,6 +11,7 @@ from pathlib import Path
 
 
 AREAS = (
+    "ads",
     "game-design",
     "monetization",
     "economy",

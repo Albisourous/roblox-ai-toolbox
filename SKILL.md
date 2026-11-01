@@ -11,7 +11,7 @@ description: |
   code-style skill and covers what to build and how to ship it.
 license: MIT
 metadata:
-  version: "0.2.1"
+  version: "0.3.0"
 ---
 
 # Roblox AI toolbox
@@ -92,6 +92,7 @@ Detail and the reasoning behind each rule: [references/agent-workflow.md](refere
 | Passes, developer products, shop layout, receipts, pricing | [references/monetization.md](references/monetization.md) |
 | Soft currency, earn rates, unlock times, repricing | [references/economy.md](references/economy.md) |
 | Discovery, D1/D7 hooks, social, notifications, launch plan | [references/retention-growth.md](references/retention-growth.md) |
+| Launch ads, budgets, targeting, creative tests, and readouts | [references/ads.md](references/ads.md) |
 | Telemetry events, A/B tests, reading results | [references/metrics.md](references/metrics.md) |
 | Release flags, publishing, listing, age eligibility, Open Cloud | [references/publishing.md](references/publishing.md) |
 | Rojo, Studio MCP, engine gotchas, testing without Studio | [references/studio-tooling.md](references/studio-tooling.md) |

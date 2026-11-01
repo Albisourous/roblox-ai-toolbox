@@ -1,5 +1,9 @@
 # Roblox AI toolbox changelog
 
+## [0.3.0] - 2026-11-01
+
+- Add a launch ads strategy reference.
+
 ## [0.2.1] - 2026-11-01
 
 - Skip fenced examples and prose when harvesting learning entries, with regression tests.

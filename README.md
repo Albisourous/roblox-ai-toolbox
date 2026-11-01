@@ -33,6 +33,7 @@ Then try:
 | `references/monetization.md` | Store design, prices, passes, and safe purchase handling |
 | `references/economy.md` | Currency sources and sinks, unlock time, and balance checks |
 | `references/retention-growth.md` | Discovery hypotheses, return play, social hooks, and launch rhythm |
+| `references/ads.md` | Launch budgets, broad targeting, creative tests, and readouts |
 | `references/metrics.md` | Event design, funnels, economy reporting, and experiments |
 | `references/publishing.md` | Release gates, listing, compliance, and Open Cloud changes |
 | `references/studio-tooling.md` | Rojo, Studio MCP, visual checks, and engine gotchas |

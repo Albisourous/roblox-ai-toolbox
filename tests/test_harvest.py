@@ -31,10 +31,10 @@ class HarvestTests(unittest.TestCase):
             self.assertEqual(stdout.getvalue(), "No unharvested learning entries.\n")
             self.assertEqual(stderr.getvalue(), "")
 
-    def test_real_entry_after_template_is_reported(self):
+    def test_ads_entry_after_template_is_reported(self):
         with tempfile.TemporaryDirectory() as tmp:
             template = self.template_lines()
-            entry = "- [metrics] A tutorial improved completion. Evidence: completion rose in the weekly cohort. Status: observed. Added: 2026-10-31. Harvested: no"
+            entry = "- [ads] A launch campaign brought in early players. Evidence: session length and return play were recorded. Status: observed. Added: 2026-10-31. Harvested: no"
             repo, log = self.make_repo(
                 Path(tmp), "game", template + [entry]
             )
@@ -43,7 +43,7 @@ class HarvestTests(unittest.TestCase):
             with contextlib.redirect_stdout(stdout), contextlib.redirect_stderr(stderr):
                 result = harvest.main([str(repo)])
             self.assertEqual(result, 0)
-            self.assertIn(f"[metrics]\n{log}:{len(template) + 1}: {entry}", stdout.getvalue())
+            self.assertIn(f"[ads]\n{log}:{len(template) + 1}: {entry}", stdout.getvalue())
             self.assertEqual(stderr.getvalue(), "")
 
     def test_malformed_bullet_outside_fence_warns(self):

@@ -59,6 +59,8 @@ Do not put Discord or other social URLs in the experience. Use the game page's S
 
 Do not buy reach to cover a broken first session. Increase ad spend gradually and stop if new-player retention falls.
 
+For a launch budget and campaign playbook, see [ads.md](ads.md).
+
 ## Make short videos and keep a weekly rhythm
 
 Plan clips around one readable moment: a near miss, a surprising result, a friend challenge, a new cosmetic, or a satisfying sequence. Use vertical framing, show the game name, and make the action clear in the first second. Use only music licensed for the game and the social platform.

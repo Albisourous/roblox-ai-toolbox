@@ -21,7 +21,7 @@ Use one line per entry:
 - [area] lesson. Evidence: what happened. Status: observed | verified <docs URL>. Added: YYYY-MM-DD. Harvested: no
 ```
 
-Use one of these area names: `game-design`, `monetization`, `economy`, `retention-growth`, `metrics`, `publishing`, `studio-tooling`, `agent-workflow`, or `getting-started`.
+Use one of these area names: `ads`, `game-design`, `monetization`, `economy`, `retention-growth`, `metrics`, `publishing`, `studio-tooling`, `agent-workflow`, or `getting-started`.
 
 Keep each lesson concise and the evidence specific enough to check. `Observed` means the behavior happened in a project and has not been confirmed as a current platform rule. `Verified` needs a Creator Docs URL that supports the claim. Do not turn an observed workaround into an official rule.
 
