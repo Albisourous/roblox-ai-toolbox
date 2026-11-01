@@ -1,5 +1,9 @@
 # Roblox AI toolbox changelog
 
+## [0.4.0] - 2026-11-01
+
+- Add solo creator launch lessons to the design, ads, and growth references.
+
 ## [0.3.1] - 2026-11-01
 
 - Replaced pipe-to-shell install commands with links to official install docs.

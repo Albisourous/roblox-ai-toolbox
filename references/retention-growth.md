@@ -66,3 +66,11 @@ For a launch budget and campaign playbook, see [ads.md](ads.md).
 Plan clips around one readable moment: a near miss, a surprising result, a friend challenge, a new cosmetic, or a satisfying sequence. Use vertical framing, show the game name, and make the action clear in the first second. Use only music licensed for the game and the social platform.
 
 Once a week, read QPTR, D1, D7, session length, common failure causes, and store activity. Pick the weakest measure. Build its fix, test on a phone, prepare short update notes, publish on the fixed day, and review the next cohort. Keep the routine small enough to repeat.
+
+## After launch, momentum moves both ways
+
+Traffic can fall after a peak. Keep shipping meaningful changes, and use player feedback and return-play measures to decide what needs attention. When interest returns, give players a reason to come back with live features such as a battle pass, clans, new tools, or cosmetics. Plan rewards around the economy and keep paid items fair. See [economy.md](economy.md) and [monetization.md](monetization.md).
+
+## Buyout offers
+
+A studio may offer to buy part of a growing game. Weigh the time you want to keep investing, other projects you could pursue, and your belief in the game's future. Use the longer trend rather than one week's results, then decide what work and responsibility you want to keep.

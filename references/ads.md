@@ -49,7 +49,11 @@ Run two or three different thumbnails at the same time. Compare click-through ra
 | Days 2 to 4 | Compare the thumbnails. Replace or remove weak ones. Fix bugs you observed, then check that the first session still works on a phone. |
 | Day 5 and later | Make an honest call. If the unofficial benchmarks look weak and players leave early, stop spending and fix the core game. If results look healthy and Home recommendation impressions appear, keep the campaign running while you watch organic traffic. Stop ads when organic traffic keeps servers active. |
 
-Do not treat Home impressions as proof that ads caused a recommendation. Roblox says campaigns do not change Recommended For You ranking. Use the campaign to learn about players, then assess organic traffic on its own.
+## Keep improving while ads run
+
+Keep a short daily fix list from player feedback, and ship useful updates while the campaign runs. In one solo creator's launch, ad-driven players had weaker metrics and less favorable like ratios than later organic players. Treat that as an anecdote and compare your own cohorts before drawing conclusions.
+
+The same creator reported that extra campaigns after two weeks of weak Home recommendation impressions did not help, and metrics climbed after ads were turned off. Roblox's documentation says ads do not change Recommended For You ranking, so this timing does not show that turning ads off improves ranking. Use player feedback and cohort results to choose fixes, and judge organic traffic on its own.
 
 ## Read benchmarks with retention
 

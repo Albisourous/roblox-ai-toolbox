@@ -10,6 +10,14 @@ Read when: shaping a Roblox game loop, onboarding, difficulty, controls, or repe
 - Use a visible hint overlay at the start, then hide it after the player acts or a short period ends. Keep hints contextual and brief. Avoid coach cards, paragraphs, and permanent labels that compete with play.
 - End each attempt with a clear result and one next goal. Give players a one-tap retry. Use the end card to point to a nearby badge, personal best, daily challenge, or unfinished mission.
 
+## Find the fun first
+
+Prototype one mechanic in a rough Studio test. For example, use an `AlignPosition` part that chases the player and see whether dodging it feels fun. Tune movement early, including running, double jump, or dodge, and let the core verb suggest the theme. Then build a round loop around that action.
+
+Plan real time for hit detection. It often takes more work than a quick prototype suggests. Once rounds work, add long-term progression: upgrades bought with earned cash and unlockable tools that change how rounds play, so attempts do not feel repetitive. Add lobby extras after that. A leaderboard or practice area supports the game better than an unrelated obby.
+
+Playtest with friends, other developers, or your community at every stage, even when the game looks rough. Use their feedback to decide what to tune before adding more content. If you add random unlocks, let players earn them with soft currency. Do not sell random boxes for Robux. See [monetization.md](monetization.md).
+
 ## Teach, then test
 
 Introduce one mechanic in a safe setting before combining it with other mechanics. The first exposure should have room to react. Later sections can increase speed, complexity, or consequence.

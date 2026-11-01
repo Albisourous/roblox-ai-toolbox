@@ -11,7 +11,7 @@ description: |
   code-style skill and covers what to build and how to ship it.
 license: MIT
 metadata:
-  version: "0.3.1"
+  version: "0.4.0"
 ---
 
 # Roblox AI toolbox
