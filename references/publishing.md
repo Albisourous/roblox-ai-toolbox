@@ -41,13 +41,13 @@ Check current Creator Hub limits and image requirements before upload. Do not us
 
 ## Use Open Cloud safely
 
-Open Cloud can create or patch game passes and developer products, including icons, when the key has the right scopes. The source experience confirms that game-pass and developer-product writes require `game-pass:write` and `developer-product:write`. Verify current scope names and endpoint behavior in Creator Docs before use.
+Open Cloud can create or patch game passes and developer products, including icons, when the key has the right scopes. Game-pass and developer-product writes have needed the `game-pass:write` and `developer-product:write` scopes. Verify current scope names and endpoint behavior in Creator Docs before use.
 
 Any script that can mutate a live experience must default to dry run. Require an explicit `--apply` flag for writes. Print the target universe, asset, and changed fields before applying. Read back the result after a mutation and stop if it differs from the intended value.
 
 Observed: universe boolean fields accepted a PATCH, while a description PATCH returned 200 without changing the description. A success status alone did not prove that the text changed. Paste description text in Creator Hub when the API path does not apply it, then verify the visible result.
 
-Use an unauthenticated public endpoint to check readiness only when it exposes the needed public data. The source material uses `develop.roblox.com` universe and badge endpoints as examples. Confirm current endpoint behavior and do not treat a public response as proof of write access.
+Use an unauthenticated public endpoint to check readiness only when it exposes the needed public data. For example, `develop.roblox.com/v1/universes/<id>` shows privacy and `badges.roblox.com/v1/universes/<id>/badges` lists created badges. Confirm current endpoint behavior and do not treat a public response as proof of write access.
 
 ## Close the release loop
 
