@@ -1,14 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "roblox-shipkit",
+  "name": "roblox-ai-toolbox",
   "owner": {
     "name": "Albisourous",
     "url": "https://github.com/Albisourous"
   },
-  "description": "Install roblox-shipkit as a Claude plugin.",
+  "description": "Install roblox-ai-toolbox as a Claude plugin.",
   "plugins": [
     {
-      "name": "roblox-shipkit",
+      "name": "roblox-ai-toolbox",
       "source": "./",
       "description": "Ship and grow Roblox games with fewer agent tokens.",
       "version": "0.1.0",

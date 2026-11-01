@@ -1,4 +1,4 @@
-# roblox-shipkit
+# roblox-ai-toolbox
 
 Roblox game design and shipping guidance for coding agents. It covers game loops, fair monetization, economy balance, retention, metrics, publishing, Studio tools, and efficient agent workflow.
 
@@ -8,10 +8,10 @@ Use the skill installer supported by your agent:
 
 | Agent | Install |
 |---|---|
-| Claude Code | Add the marketplace with `/plugin marketplace add Albisourous/roblox-shipkit`, then install `roblox-shipkit` from that marketplace |
-| Devin | Copy `SKILL.md` and `references/` into `.devin/skills/roblox-shipkit/` |
+| Claude Code | Add the marketplace with `/plugin marketplace add Albisourous/roblox-ai-toolbox`, then install `roblox-ai-toolbox` from that marketplace |
+| Devin | Copy `SKILL.md` and `references/` into `.devin/skills/roblox-ai-toolbox/` |
 | Cursor | Install the plugin from the repository or copy the skill files into the project's skills directory |
-| Codex | Run `npx skills add Albisourous/roblox-shipkit` |
+| Codex | Run `npx skills add Albisourous/roblox-ai-toolbox` |
 | Any agent that reads skills | Copy `SKILL.md` and `references/` into its skill directory |
 
 The skill's `SKILL.md` is the entry point. It routes agents to the reference that fits the task.
@@ -31,7 +31,7 @@ The skill's `SKILL.md` is the entry point. It routes agents to the reference tha
 
 ## Companion skills
 
-These skills cover adjacent work. roblox-shipkit adds shipping, product design, and workflow guidance alongside Luau code standards.
+These skills cover adjacent work. roblox-ai-toolbox adds shipping, product design, and workflow guidance alongside Luau code standards.
 
 - [Roblox best practices](https://github.com/andrian-syh/roblox-best-practices-skill) for Luau and Roblox code standards.
 - [Prefixer](https://github.com/Albisourous/prefixer) for namespace maps and scoped repository search.

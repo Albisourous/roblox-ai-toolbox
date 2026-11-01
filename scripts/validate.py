@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate roblox-shipkit package structure and shared metadata."""
+"""Validate roblox-ai-toolbox package structure and shared metadata."""
 
 import json
 import re

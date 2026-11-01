@@ -1,14 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "roblox-shipkit",
+  "name": "roblox-ai-toolbox",
   "description": "Ship and grow Roblox games with fewer agent tokens.",
   "version": "0.1.0",
   "author": {
     "name": "Albisourous",
     "url": "https://github.com/Albisourous"
   },
-  "homepage": "https://github.com/Albisourous/roblox-shipkit",
-  "repository": "https://github.com/Albisourous/roblox-shipkit",
+  "homepage": "https://github.com/Albisourous/roblox-ai-toolbox",
+  "repository": "https://github.com/Albisourous/roblox-ai-toolbox",
   "license": "MIT",
   "keywords": [
     "roblox",

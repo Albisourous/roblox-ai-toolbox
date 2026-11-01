@@ -1,5 +1,5 @@
 ---
-name: roblox-shipkit
+name: roblox-ai-toolbox
 description: |
   Ship and grow Roblox games with fewer agent tokens. Use when designing,
   building, monetizing, publishing, or growing a Roblox experience: core
@@ -13,7 +13,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# Roblox shipkit
+# Roblox AI toolbox
 
 Lessons from taking a Roblox game from empty place to public launch, turned
 into rules an agent can follow. The aim: build the right thing the first
