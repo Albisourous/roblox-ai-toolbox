@@ -23,7 +23,7 @@ Use a companion when it solves a specific task better than this toolbox alone. T
 
 The commands below come from the linked project READMEs. Review them before running. Ask the user before installing or changing tools.
 
-- Roblox best practices: its README provides shell and PowerShell installers. On macOS or Linux, it documents `curl -fsSL https://raw.githubusercontent.com/andrian-syh/roblox-best-practices-skill/main/install.sh | bash`. The README covers install locations and options.
+- Roblox best practices: see the [official installation guide](https://github.com/andrian-syh/roblox-best-practices-skill/blob/main/INSTALL.md) for current options and install locations.
 - Prefixer: the README documents `npx skills add Albisourous/prefixer` and an installer script for supported agents.
 - Karpathy guidelines: see its README for Claude Code plugin and per-project instructions.
 - Humanizer: its README documents `npx skills add blader/humanizer --global --agent '*'`. Remove `--global` to install for the current project.
