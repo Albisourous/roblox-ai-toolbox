@@ -16,6 +16,53 @@ class HarvestTests(unittest.TestCase):
         log.write_text("\n".join(lines) + "\n", encoding="utf-8")
         return repo, log
 
+    def template_lines(self):
+        template = Path(__file__).resolve().parents[1] / "templates" / "LEARNINGS.md"
+        return template.read_text(encoding="utf-8").splitlines()
+
+    def test_template_has_no_entries_or_warnings(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo, _ = self.make_repo(Path(tmp), "game", self.template_lines())
+            stdout = io.StringIO()
+            stderr = io.StringIO()
+            with contextlib.redirect_stdout(stdout), contextlib.redirect_stderr(stderr):
+                result = harvest.main([str(repo)])
+            self.assertEqual(result, 0)
+            self.assertEqual(stdout.getvalue(), "No unharvested learning entries.\n")
+            self.assertEqual(stderr.getvalue(), "")
+
+    def test_real_entry_after_template_is_reported(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            template = self.template_lines()
+            entry = "- [metrics] A tutorial improved completion. Evidence: completion rose in the weekly cohort. Status: observed. Added: 2026-10-31. Harvested: no"
+            repo, log = self.make_repo(
+                Path(tmp), "game", template + [entry]
+            )
+            stdout = io.StringIO()
+            stderr = io.StringIO()
+            with contextlib.redirect_stdout(stdout), contextlib.redirect_stderr(stderr):
+                result = harvest.main([str(repo)])
+            self.assertEqual(result, 0)
+            self.assertIn(f"[metrics]\n{log}:{len(template) + 1}: {entry}", stdout.getvalue())
+            self.assertEqual(stderr.getvalue(), "")
+
+    def test_malformed_bullet_outside_fence_warns(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            template = self.template_lines()
+            repo, log = self.make_repo(
+                Path(tmp), "game", template + ["- [metrics] incomplete"]
+            )
+            stdout = io.StringIO()
+            stderr = io.StringIO()
+            with contextlib.redirect_stdout(stdout), contextlib.redirect_stderr(stderr):
+                result = harvest.main([str(repo)])
+            self.assertEqual(result, 0)
+            self.assertEqual(stdout.getvalue(), "No unharvested learning entries.\n")
+            self.assertIn(
+                f"{log}:{len(template) + 1}: malformed learning entry",
+                stderr.getvalue(),
+            )
+
     def test_prints_only_unharvested_entries_grouped_by_area(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

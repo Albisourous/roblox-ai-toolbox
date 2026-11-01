@@ -55,9 +55,13 @@ def collect(repos):
             warn(learnings, 0, f"cannot read learning log: {exc}")
             continue
 
+        in_fenced_block = False
         for line_number, line in enumerate(lines, start=1):
             stripped = line.strip()
-            if not stripped or stripped.startswith("#"):
+            if stripped.startswith("```"):
+                in_fenced_block = not in_fenced_block
+                continue
+            if in_fenced_block or not stripped.startswith("- "):
                 continue
             match = ENTRY_PATTERN.fullmatch(stripped)
             if not match:

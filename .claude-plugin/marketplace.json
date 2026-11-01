@@ -11,7 +11,7 @@
       "name": "roblox-ai-toolbox",
       "source": "./",
       "description": "Roblox AI toolbox: build, ship, and grow Roblox games with AI agents while spending fewer tokens.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "license": "MIT",
       "keywords": [
         "roblox",
