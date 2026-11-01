@@ -1,6 +1,6 @@
 Read when: designing a store, setting purchase flows, or reviewing Roblox monetization.
 
-# Monetization
+# Roblox AI toolbox: Monetization
 
 ## Choose a fair model
 

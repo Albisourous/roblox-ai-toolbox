@@ -1,6 +1,6 @@
 Read when: preparing a Roblox release, updating a live listing, or changing Open Cloud assets.
 
-# Publishing and compliance
+# Roblox AI toolbox: Publishing and compliance
 
 ## Check release state
 

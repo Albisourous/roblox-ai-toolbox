@@ -1,7 +1,7 @@
 {
   "name": "roblox-ai-toolbox",
-  "version": "0.1.0",
-  "description": "Ship and grow Roblox games with fewer agent tokens.",
+  "version": "0.2.0",
+  "description": "Roblox AI toolbox: build, ship, and grow Roblox games with AI agents while spending fewer tokens.",
   "author": {
     "name": "Albisourous",
     "url": "https://github.com/Albisourous"

@@ -1,6 +1,6 @@
 Read when: pricing earnable items, setting rewards, or balancing a soft-currency economy.
 
-# Economy design
+# Roblox AI toolbox: Economy
 
 ## Model sources and sinks
 

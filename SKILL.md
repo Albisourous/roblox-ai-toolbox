@@ -1,27 +1,29 @@
 ---
 name: roblox-ai-toolbox
 description: |
-  Ship and grow Roblox games with fewer agent tokens. Use when designing,
+  Roblox AI toolbox: build, ship, and grow Roblox games with AI agents while spending fewer tokens.
+  Use when designing,
   building, monetizing, publishing, or growing a Roblox experience: core
   loop and onboarding, game passes and developer products, soft-currency
   economy, retention and discovery, launch and store listing, Studio MCP
   and Rojo workflows, and keeping an AI agent's work cheap and verifiable.
-  Pairs with a Luau code-style skill; this one covers what to build and how
-  to ship it, not how each script is formatted.
+  It suits beginners new to Roblox or AI coding. It pairs with a Luau
+  code-style skill and covers what to build and how to ship it.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Roblox AI toolbox
 
-Lessons from taking a Roblox game from empty place to public launch, turned
-into rules an agent can follow. The aim: build the right thing the first
-time and spend as few tokens as possible doing it.
+This Roblox AI toolbox turns practical shipping experience into rules an
+agent can follow. It helps agents build, ship, and grow games with fewer
+repeat searches and smaller, testable changes.
 
-This file is short on purpose. Read it once, then open only the reference
-file that matches the task. Lookup tables in `references/` are meant to be
-grepped, not read end to end.
+Read this once, then open only the reference that matches the task. Grep
+lookup tables in `references/` instead of reading each one end to end.
+
+New to Roblox or to coding with AI? Start with [references/getting-started.md](references/getting-started.md).
 
 ## Working rules (every task)
 
@@ -42,11 +44,16 @@ grepped, not read end to end.
 6. **Cheap checks before expensive ones.** Run format, lint, and build on
    any machine. Studio playtests cost far more; when the human prefers to
    test by hand, give them a short checklist instead.
-7. **Never trust a playtest you have not identified.** Confirm Play runs
-   the scripts on disk and that Stop really stopped before you report a
-   result.
-8. **Write it down once.** Record each platform gotcha you hit in a
-   persistent notes file so no later session pays to rediscover it.
+7. **Never trust an unidentified playtest.** Confirm Play runs the scripts
+   on disk and that Stop really stopped before reporting a result:
+   [references/playtest-guard.md](references/playtest-guard.md).
+8. **Write it down once.** Log each reusable lesson in the game repo's
+   `.roblox-ai-toolbox/LEARNINGS.md` so later sessions and the toolbox
+   itself learn from it: [references/learning-loop.md](references/learning-loop.md).
+9. **Suggest helpers.** When a task would go better with a companion skill
+   or tool, name it once with why:
+   [references/companion-skills.md](references/companion-skills.md).
+   Never install anything without the user's OK.
 
 Detail and the reasoning behind each rule: [references/agent-workflow.md](references/agent-workflow.md).
 
@@ -80,6 +87,7 @@ Detail and the reasoning behind each rule: [references/agent-workflow.md](refere
 
 | Task | Open |
 |---|---|
+| First steps, Studio, MCP, Rojo, and beginner prompts | [references/getting-started.md](references/getting-started.md) |
 | Core loop, onboarding, difficulty, controls, mobile UX | [references/game-design.md](references/game-design.md) |
 | Passes, developer products, shop layout, receipts, pricing | [references/monetization.md](references/monetization.md) |
 | Soft currency, earn rates, unlock times, repricing | [references/economy.md](references/economy.md) |
@@ -87,7 +95,10 @@ Detail and the reasoning behind each rule: [references/agent-workflow.md](refere
 | Telemetry events, A/B tests, reading results | [references/metrics.md](references/metrics.md) |
 | Release flags, publishing, listing, age eligibility, Open Cloud | [references/publishing.md](references/publishing.md) |
 | Rojo, Studio MCP, engine gotchas, testing without Studio | [references/studio-tooling.md](references/studio-tooling.md) |
+| Checking the exact scripts a Studio playtest ran | [references/playtest-guard.md](references/playtest-guard.md) |
 | Token-lean agent habits, commits, verification, memory | [references/agent-workflow.md](references/agent-workflow.md) |
+| Choosing useful companion skills and tools | [references/companion-skills.md](references/companion-skills.md) |
+| Recording and harvesting reusable lessons | [references/learning-loop.md](references/learning-loop.md) |
 
 ## Before calling work done
 
@@ -95,6 +106,7 @@ Detail and the reasoning behind each rule: [references/agent-workflow.md](refere
 - Tunables changed in config, not inline. Design doc updated if a rule
   changed.
 - Player-facing text is short, plain, and free of AI tells.
+- New lessons logged in `LEARNINGS.md`.
 - Release flags (debug modes, test ownership masks, free-for-testing
   switches) are off if this change will be published.
 - The human has either a verified result or a short manual test checklist,

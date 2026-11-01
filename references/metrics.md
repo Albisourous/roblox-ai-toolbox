@@ -1,6 +1,6 @@
 Read when: adding telemetry, interpreting retention or economy data, or comparing variants.
 
-# Metrics and telemetry
+# Roblox AI toolbox: Metrics and telemetry
 
 ## Measure decisions
 

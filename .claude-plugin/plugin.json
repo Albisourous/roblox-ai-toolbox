@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "roblox-ai-toolbox",
-  "description": "Ship and grow Roblox games with fewer agent tokens.",
-  "version": "0.1.0",
+  "description": "Roblox AI toolbox: build, ship, and grow Roblox games with AI agents while spending fewer tokens.",
+  "version": "0.2.0",
   "author": {
     "name": "Albisourous",
     "url": "https://github.com/Albisourous"

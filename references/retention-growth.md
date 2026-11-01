@@ -1,6 +1,6 @@
 Read when: planning discovery, return play, social features, content, or launch growth.
 
-# Retention and growth
+# Roblox AI toolbox: Retention and growth
 
 ## Treat discovery as a measured loop
 

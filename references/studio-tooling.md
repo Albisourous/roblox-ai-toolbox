@@ -1,6 +1,8 @@
 Read when: using Rojo, Studio MCP, device testing, or debugging source mismatches.
 
-# Studio and agent tooling
+# Roblox AI toolbox: Studio and agent tooling
+
+For a step-by-step source check before trusting a playtest, use the [playtest guard](playtest-guard.md) reference.
 
 ## Know which source you are testing
 

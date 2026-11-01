@@ -5,13 +5,13 @@
     "name": "Albisourous",
     "url": "https://github.com/Albisourous"
   },
-  "description": "Install roblox-ai-toolbox as a Claude plugin.",
+  "description": "Roblox AI toolbox: build, ship, and grow Roblox games with AI agents while spending fewer tokens.",
   "plugins": [
     {
       "name": "roblox-ai-toolbox",
       "source": "./",
-      "description": "Ship and grow Roblox games with fewer agent tokens.",
-      "version": "0.1.0",
+      "description": "Roblox AI toolbox: build, ship, and grow Roblox games with AI agents while spending fewer tokens.",
+      "version": "0.2.0",
       "license": "MIT",
       "keywords": [
         "roblox",

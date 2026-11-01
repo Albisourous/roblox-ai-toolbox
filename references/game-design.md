@@ -1,6 +1,6 @@
 Read when: shaping a Roblox game loop, onboarding, difficulty, controls, or repeat play.
 
-# Game design
+# Roblox AI toolbox: Game design
 
 ## Make the game legible
 
