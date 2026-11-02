@@ -1,19 +1,26 @@
 # Roblox AI toolbox
 
+[![skills.sh](https://skills.sh/b/Albisourous/roblox-ai-toolbox)](https://skills.sh/Albisourous/roblox-ai-toolbox)
+
 Build, ship, and grow Roblox games with AI agents while spending fewer tokens.
 
 For beginners learning Roblox or AI coding, and teams that want a repeatable workflow.
 
 ## Install
 
-Install the skill in the agent you use:
+```sh
+npx skills add Albisourous/roblox-ai-toolbox
+```
+
+Works with Claude Code, Codex, Cursor, Devin, Windsurf, and 70+ other agents - it detects yours and installs there.
+
+Manual install per agent:
 
 | Agent | Install |
 |---|---|
 | Claude Code | Add the marketplace with `/plugin marketplace add Albisourous/roblox-ai-toolbox`, then install `roblox-ai-toolbox` from that marketplace |
 | Devin | Copy `SKILL.md`, `references/`, `scripts/`, and `templates/` into `.devin/skills/roblox-ai-toolbox/` |
 | Cursor | Install the plugin from the repository or copy `SKILL.md`, `references/`, `scripts/`, and `templates/` into the project's skills directory |
-| Codex | Run `npx skills add Albisourous/roblox-ai-toolbox` |
 | Any agent that reads skills | Copy `SKILL.md`, `references/`, `scripts/`, and `templates/` into its skill directory |
 
 Then try:
