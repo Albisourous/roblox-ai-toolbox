@@ -9,6 +9,7 @@ Send an event only when it answers a product question. Prefer server-side lifecy
 | Event family | Minimum data | Question |
 |---|---|---|
 | Onboarding funnel | Join, first run start, first run end, second run start, early milestone | Where do new players stop? |
+| Progression funnel | Each unlock or upgrade milestone, price, session minute reached | Where does progression stall? |
 | Run end | Distance or result, cause, feature, difficulty tier | What ends attempts? |
 | Session end | Session seconds and runs per session | Do players quit after one attempt or several? |
 | Economy source or sink | Flow, amount, ending balance, transaction type, SKU | Which actions create or spend currency? |
@@ -16,6 +17,8 @@ Send an event only when it answers a product question. Prefer server-side lifecy
 Use stable event names and compact string fields. For economy events, record every source and sink: gameplay rewards, quests, daily rewards, group and friend bonuses, purchases, rebates, and item purchases. Record product SKUs and ending balance. Do not count a profile restore as income.
 
 Use `AnalyticsService:LogCustomEvent` for lifecycle events and `LogOnboardingFunnelStepEvent` for an onboarding funnel. Build funnel steps from server-confirmed events. Emit each milestone once and in order. Do not count debug runs as real onboarding progress. Disconnects should not fabricate a run end. Verify current method signatures, field limits, and reporting rules in Creator Docs.
+
+Numbers narrow down where a problem is; they do not say why. Pair funnel data with qualitative sources such as your own fresh-account run, paid tester reports, and in-game feedback before writing a fix hypothesis. See [economy.md](economy.md) for the tester-grind format and [retention-growth.md](retention-growth.md) for the feedback channel.
 
 ## Track what ends a run
 

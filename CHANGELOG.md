@@ -1,5 +1,9 @@
 # Roblox AI toolbox changelog
 
+## [0.6.0] - 2026-11-02
+
+- Add viral-simulator postmortem lessons: frictionless first 90 seconds, state-triggered contextual tutorials, progression funnels and paid tester grinds, launch-day store mix with real scarcity, in-game feedback channels, live-place testing, and contractor briefing and firing.
+
 ## [0.5.0] - 2026-11-02
 
 - Add top-game producer lessons: idea checks, simple mechanics with depth, playing your own game on every device, clippable moments, shipping in volume, and the improvement loop.

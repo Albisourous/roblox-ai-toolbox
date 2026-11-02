@@ -10,6 +10,16 @@ Read when: shaping a Roblox game loop, onboarding, difficulty, controls, or repe
 - Use a visible hint overlay at the start, then hide it after the player acts or a short period ends. Keep hints contextual and brief. Avoid coach cards, paragraphs, and permanent labels that compete with play.
 - End each attempt with a clear result and one next goal. Give players a one-tap retry. Use the end card to point to a nearby badge, personal best, daily challenge, or unfinished mission.
 
+## Keep the first 90 seconds frictionless
+
+Track every onboarding step as a funnel: join, first action, each tutorial beat, first reward. Find the largest drop-off and fix that step first. Check that the title and icon promise what the first action delivers. In one creator postmortem, the largest funnel loss was the first required task because the title suggested a different fantasy than what the game asked the player to do.
+
+Remove small acts of friction. If the next step needs a tool or item, equip it for the player or place it in their inventory instead of sending them to a menu or shop. In the same postmortem, forcing players to equip an item from a hotbar was a measurable drop-off, and stocking the consumable the tutorial needs removed an entire shop detour.
+
+Make the first core-loop action oversized so cause and effect are unmistakable, such as a first use that produces an exaggerated result the rest of the game cannot match. Then teach one thing and let the player use it. Do not stack several tutorial arrows at once, and do not teach a second upgrade before the player has felt the first one's effect.
+
+Fire later lessons from game state, not from a tutorial timer. When a stocked resource runs out, show where to get more. When a player first hits a cap, show the upgrade that raises it. Contextual tutorials keep the first session short while still teaching every system, and a player who never needs a system is never interrupted by it.
+
 ## Check the idea before building
 
 Ideas are cheap. Most of a game's result comes from the idea and how well it is executed, with data-driven tuning doing the rest. Before committing, check the idea against these questions:

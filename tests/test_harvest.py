@@ -10,7 +10,7 @@ from scripts import harvest
 
 class HarvestTests(unittest.TestCase):
     def make_repo(self, root, name, lines):
-        repo = root / name
+        repo = (root / name).resolve()
         log = repo / ".roblox-ai-toolbox" / "LEARNINGS.md"
         log.parent.mkdir(parents=True)
         log.write_text("\n".join(lines) + "\n", encoding="utf-8")

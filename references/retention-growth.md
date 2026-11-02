@@ -49,6 +49,14 @@ For a share card, use `rbxthumb://` with the game icon or thumbnail and wait for
 
 Do not put Discord or other social URLs in the experience. Use the game page's Social Links and in-game wording such as "links on the game page." Verify current Community Standards and eligibility before enabling social links. The source guidance notes a 16+ verified requirement, which can change.
 
+## Keep a feedback channel and live testers
+
+Give players an in-game way to leave feedback, such as a mailbox or prompt they can walk up to. Review it on a schedule and summarize recurring themes such as lag, inventory friction, and balance. Feedback tells you what to look for; funnels tell you how common it is. Use both.
+
+Keep a dedicated test place published to Roblox. Some bugs only appear on live servers and never reproduce in Studio. Keep a small group of paid testers who grind before each launch and update, with a fixed report format so their notes are comparable. One creator credited testers with finding an economy-breaking exploit before release - the kind of discovery that pays for the whole testing budget. Teams report that testers treated well follow them from game to game.
+
+Front-load these fixes before the discovery push. One postmortem attributed a capped peak partly to launching first and patching daily while the game was already being recommended, and wished the testers had found those bugs earlier.
+
 ## Launch in phases
 
 1. Private polish: test the first session, performance, purchases, and mobile controls with real players.

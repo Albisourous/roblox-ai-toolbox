@@ -46,6 +46,16 @@ Publish the matching grant code before changing a developer-product price. Other
 
 Before publishing, verify the new-player store view with a debug ownership mask. The list must be empty in the release build. The creator account can own every test pass, which can hide broken first-purchase views.
 
+## Stock the store for every spender at launch
+
+Launch with products for every spender level, not only the entry tier. In one observed launch, limited-run items added two weeks late still became a top seller, and the creator counted the delay as lost revenue. For progression games, repeat-purchase consumables and a ladder of cheap upgrade tiers drive volume: a first tier priced at a few Robux moves a player across the player-to-payer threshold, and later tiers stack on it. This is the same loss-leader pattern retail stores use.
+
+Make scarcity real. A limited item needs a fixed stock that is never restocked. Match at least one limited to your largest demographic segment - check the audience split in Creator Hub analytics before choosing what to offer. Scarcity can also serve balance: a limited, high-priced version of a powerful item sells while keeping it rare.
+
+Protect the economy from your own store. In that launch the creator blamed raw currency packs and overpowered event handouts for breaking the sinks the economy depended on. Prefer scarce, expensive versions of strong items over unlimited cheap power, and apply the same discipline to free handouts during live events.
+
+Check the store on a phone before launch. In the same launch, fixing the mobile shop layout measurably recovered revenue per daily active user.
+
 ## Review the full path
 
 For each product, document the display name, grant, price source, receipt behavior, and refund or recovery path. Check the purchase prompt on a non-owner account. Confirm the product displays a definite quote, the server grants once, the balance persists, and a rejoin preserves ownership.

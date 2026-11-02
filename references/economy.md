@@ -36,6 +36,14 @@ Calculate currency per Robux for each pack. The rate should rise as pack size gr
 
 Prices should reflect the expected unlock time and the value of the item. Do not raise prices because a few skilled players earn quickly. Compare retention and satisfaction along with purchase conversion. A higher short-term spend rate can still harm lifetime value if it makes progression feel unfair.
 
+## Pace progression before launch
+
+Test progression on a fresh account. A creator or long-used tester account already owns the unlocks and skips the walls a new player hits. Play the first session as a new player and write down what unlocks at each minute.
+
+Track every progression milestone as a funnel: first upgrade bought, second upgrade, first zone or tier reached, first capacity upgrade. Low conversion at one step means that step is confusing, introduced at the wrong time, or too expensive. In one observed launch, roughly three in five new players bought the first progression item and about one in four ever upgraded capacity; making the early items cheaper coincided with day-1 retention climbing from the single digits into the mid-teens.
+
+Pair the funnel with paid playtester grinds. Give two or three testers a small Robux payment and a fixed report format - minutes played, what they unlocked, where they felt stuck, and anything blocking progress - then have them play for a few hours. Their notes plus the funnel give a hypothesis for the largest wall. Fix the early game first, then smooth the mid and late game. Finish this before a discovery push, not after: in the same launch a week of poor early retention while featured capped the peak.
+
 ## Calibrate after release
 
 Read a full week of player cohorts before changing the economy. Compare active-hour earnings, runs per session, time to first purchase, unlock completion, D1 and D7 retention, payer conversion, and revenue per new player. Split new players from returning players. Use small samples as directional evidence, not a proven optimum.
