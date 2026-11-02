@@ -46,6 +46,15 @@ Choose one primary outcome and guardrails before launching a test. For a difficu
 
 Read a full weekly cohort before making a decision. Keep assignment balanced, avoid overlapping experiments that affect the same outcome, and record the start date, end date, variants, and known confounds. If the cohort is too small, label the result directional.
 
+## Run the improvement loop
+
+1. Research: play top games in your genre and cross-reference more than one data source, such as your own analytics, public charts, and creator videos.
+2. Pick one idea that should move one measure.
+3. Ship it.
+4. Check the measure on the next cohort. Keep the change if it helped. Revert or rework it if it did not, then try the next idea.
+
+Repeat often. Volume of tested changes matters more than any single guess. Keep the cohort rules below so each check is fair.
+
 ## Review with the right denominator
 
 Use cohorts and denominators that match the question. D1 uses new players eligible to return. A purchase conversion rate uses players who saw the offer, not every visit. A death share should be compared with exposure to that feature. Split new and returning players and inspect device where sample size permits.

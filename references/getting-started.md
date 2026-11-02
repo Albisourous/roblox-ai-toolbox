@@ -83,4 +83,6 @@ Example prompts:
 - Granting purchases twice: deduplicate receipts durably and retry safely. See the monetization reference.
 - Publishing with debug flags on: check test masks, free-for-testing settings, and temporary controls before release.
 - Designing only for desktop: phone players need large targets, readable text, and controls that do not cover the action.
+- Buying a template or reskinning a trend: one creator's paid reskin, bought template, and fast AI-built trend game with no polish all flopped. You learn little from a template, and a copy without polish loses to the original. Use AI to build faster, then play the game and polish it.
+- Hiring for a quick commission: a builder who does not care about game design will not fix one. Look for teammates who understand design and ship fast. Good people are the main bottleneck, not ideas.
 - Rebuilding an engine feature: search Creator Docs and engine APIs before adding custom physics, UI, persistence, or messaging.

@@ -1,5 +1,9 @@
 # Roblox AI toolbox changelog
 
+## [0.5.0] - 2026-11-02
+
+- Add top-game producer lessons: idea checks, simple mechanics with depth, playing your own game on every device, clippable moments, shipping in volume, and the improvement loop.
+
 ## [0.4.0] - 2026-11-01
 
 - Add solo creator launch lessons to the design, ads, and growth references.

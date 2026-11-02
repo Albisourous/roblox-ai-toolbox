@@ -65,7 +65,13 @@ For a launch budget and campaign playbook, see [ads.md](ads.md).
 
 Plan clips around one readable moment: a near miss, a surprising result, a friend challenge, a new cosmetic, or a satisfying sequence. Use vertical framing, show the game name, and make the action clear in the first second. Use only music licensed for the game and the social platform.
 
+Make the game clippable. Watch creators who play games in your genre and note which moments they keep in their videos and react to. Then design more of those moments and push them further. One case study took a common moment, hitting a player who steals from you, and made the thief ragdoll far off the map. The exaggerated version drew unpaid creator videos. Keep the effect funny and harmless, and do not let it punish new players.
+
 Once a week, read QPTR, D1, D7, session length, common failure causes, and store activity. Pick the weakest measure. Build its fix, test on a phone, prepare short update notes, publish on the fixed day, and review the next cohort. Keep the routine small enough to repeat.
+
+## Ship in volume
+
+Top teams iterate fast. One front-page team reported shipping patches daily, sometimes twice a day, a large update weekly, and about nine versions of the tutorial. Small, frequent changes give you more chances to find what moves the numbers. Spend time in live servers, talk to players, and ask for feedback and ideas.
 
 ## After launch, momentum moves both ways
 

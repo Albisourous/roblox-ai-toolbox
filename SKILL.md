@@ -11,7 +11,7 @@ description: |
   code-style skill and covers what to build and how to ship it.
 license: MIT
 metadata:
-  version: "0.4.0"
+  version: "0.5.0"
 ---
 
 # Roblox AI toolbox
@@ -66,6 +66,9 @@ Detail and the reasoning behind each rule: [references/agent-workflow.md](refere
   The end-of-run card points at the next goal and retry is one tap.
 - **Mobile first.** Most players are on phones. Big targets, readable text,
   short sessions that feel complete.
+- **Simple scales.** One easy mechanic with real depth beats many
+  systems. Every action shows its result right away. Play every build
+  yourself on phone, console, and desktop before publishing.
 - **Sell looks, never power,** in any game with a leaderboard. No paid
   revives, no pay-to-win, no paid random boxes, no fake timers or fake
   social proof.
